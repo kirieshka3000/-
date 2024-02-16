@@ -1,0 +1,7 @@
+from math import *
+a = int(input('a='))
+b = int(input("b="))
+u= log1p(abs (a*b))
+x= 2*a*b
+r= (3+ sqrt(u**(4)+x**(2)))/(u+x*log1p(abs (x + 1)))
+print('r=', r)
